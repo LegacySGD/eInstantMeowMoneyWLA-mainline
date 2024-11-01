@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family code="2376" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+    <game name="Meow Money WLA" version="1.0.4" gameengineversion="2" gamelogicversion="1.0"
+            number="0"
+            jackpotid=""
+            gametype="L"
+            loadprevstate="N"
+            numberGenerator="RNG"
+            betMultipliers="50,100,200,300,500,1000,2000"
+            spots=""
+            productId="1"
+            gamegroup="eGames"
+            languages="en,en_US,en_NZ,de_BE,fr_BE,nl_BE,nb_NO,pl_PL,tr_TR,lt_LT,es_PY,nl_NL"
+            skbPlatformVersion="1.4.0"
+            merchandisePrize="N"
+            stateful="N">
+
+        <!-- ZER 50c, $1, $2, $3, $5, $10 & $20 -->
+        <!--<paymodel modelid="300-2376-099"  revealId="4926" revealVersionId="4902"
+                    confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                    mincoins="0" cointhreshold="0"
+                    name="Meow Money WLA : 300-2376-099"
+                    hibethold="41.30" lobethold="41.30"
+                    hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+
+        <paymodelConfig modelid="300-2376-099" clienttype="HTML" configcode="IXML"/>
+        <paymodelConfig modelid="300-2376-099" clienttype="HTML" configcode="PHLP"/>--> 
+
+        <!-- RI 50c, $1, $2, $3, $5, $10 & $20 -->
+        <paymodel modelid="300-2376-001"  revealId="4926" revealVersionId="4902"
+                    confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                    mincoins="0" cointhreshold="0"
+                    name="Meow Money WLA : 300-2376-001"
+                    hibethold="15.00" lobethold="15.00"
+                    hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+
+        <paymodelConfig modelid="300-2376-001" clienttype="HTML" configcode="IXML"/>
+        <paymodelConfig modelid="300-2376-001" clienttype="HTML" configcode="PHLP"/> 
+
+        <!-- PLT 1zl, 2zl, 5zl, 10zl, 20zl, 30zl & 50zl -->
+        <paymodel modelid="300-2376-002"  revealId="4926" revealVersionId="4902"
+                    confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                    mincoins="0" cointhreshold="0"
+                    name="Meow Money WLA : 300-2376-002"
+                    hibethold="22.00" lobethold="22.00"
+                    hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+
+        <paymodelConfig modelid="300-2376-002" clienttype="HTML" configcode="IXML"/>
+        <paymodelConfig modelid="300-2376-002" clienttype="HTML" configcode="PHLP"/>
+
+        <!-- NT kr5, kr10 & kr20 -->
+        <paymodel modelid="300-2376-003"  revealId="4926" revealVersionId="4902"
+                    confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                    mincoins="0" cointhreshold="0"
+                    name="Meow Money WLA : 300-2376-003"
+                    hibethold="20.00" lobethold="20.00"
+                    hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+
+        <paymodelConfig modelid="300-2376-003" clienttype="HTML" configcode="IXML"/>
+        <paymodelConfig modelid="300-2376-003" clienttype="HTML" configcode="PHLP"/>
+
+        <denom currencycode="EUR" amount="0.01"/>
+        <denom currencycode="FUN" amount="0.01"/>
+        <denom currencycode="NOK" amount="0.01"/>
+        <denom currencycode="NZD" amount="0.01,0.02"/>
+        <denom currencycode="PLN" amount="0.01,0.05"/>
+        <denom currencycode="PYG" amount="0.01"/>
+        <denom currencycode="TRY" amount="0.01"/>
+        <denom currencycode="USD" amount="0.01,0.02"/>
+    </game>
+</family>
